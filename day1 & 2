@@ -1,0 +1,87 @@
+// Python Fundamentals
+
+# Brackets
+    () - Arg, Expressions, Tuple
+    {} - dictionary, set
+    [] - indexing/subscripting/slicing, list
+    <> - NA
+# Identifiers
+    - It must contain alph-numeric only
+    - special char not allowed except Underscore
+    - Cna not start from number
+# keywords
+# Operators
+    1. Arithmetic: +, -, *, /, %(modulo), **(power), //(floor div)
+    2. Assignment: =, +=, -=, ...........
+    3. Relational: >, <, >=, <=, ==, !=
+    4. Logical:    and, or, not
+    5. Bitwise:    &, |, ~, ^ (xor), >> (right), << (left shift)
+    6. Membership: in, not in
+    7. Identity:   is, is not
+
+# Data & Types
+    1. int      10
+    2. float    10.0
+    3. complex  10 + 0j
+    4. str      'hi'  "hi"   '''hi'''  """hi"""
+        immutbale
+    5. list     [5,9,'hi', 9.3]
+        unstructured, mutable collection of het data
+    6. tuple    (5,9,'hi', 9.3)   5,9,'hi',9.3
+        unstructured, immutable collection of het data
+    7. dict     {4:5, 'a': [9,3,4]}
+        structured, mutable collection of key-value pairs
+    8. set      {5,7,9,'hi'}
+        unordered collection of unique items
+    9. bool        True False
+    10. NoneType    None
+# Concept of Mutability
+    Works on Collections only
+        i. Item Access
+            - Indexing / Sub-scripting
+            - Slicing
+        ii. Item Insertion
+        iii. Item Assignment
+        iv. Item Deletion
+
+    a. Mutable
+        (i), ii, iii, iv - Possible
+    b. Immutable
+        (i), ii - Possible |      iii, iv - Not possible
+# Built-in Functions for Data Types
+# Control Statements
+## Conditional
+## Looping
+## Comprehensions
+# User Defined Functions
+## Function Parameterization
+## Lambda Expressions
+## Generators
+## Decorators
+# Object Oriented Programming
+# Modules & Packages in Python
+
+# GUI Development using Python
+
+
+
+#### GIT Setup
+        git-scm.com
+
+# Create Repository - Done
+# Initialize Repo - Done
+    git init
+
+# User Configuration
+    git config --global user.name "Peeyush Sanam"
+    git config --global user.email "peeyush.sanam@gmail.com"
+
+# Remote Repository Connect
+    git remote add origin "https://github.com/repo.git"
+
+# Daily Process
+ # Save & Commit all changes 
+    git add .
+    git commit -m "First commit"
+ # Push the changes to Github
+    git push origin main
